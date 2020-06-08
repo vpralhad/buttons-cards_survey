@@ -17,5 +17,11 @@ https://www.youtube.com/watch?v=cJUlyPt3zq4
     - python3.8 -m venv venv
     - source venv/bin/activate
     - pip install requirements.txt
+    - Enter following commands in terminal to set the env variables:
+        export TEAMS_BOT_URL=https://xxxxxx (replace it with url generated when your run ngrok http 7000 in terminal in
+        a separate tab)
+        export TEAMS_BOT_TOKEN=xxxxx (replace it with your bot access token that you copied in step 1)
+        export TEAMS_BOT_EMAIL=replace it with your email id
+        export TEAMS_BOT_APP_NAME=DevNetSurvey
     
 
