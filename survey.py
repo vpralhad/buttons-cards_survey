@@ -25,8 +25,8 @@ teams_token = os.getenv("TEAMS_BOT_TOKEN")
 bot_url = os.getenv("TEAMS_BOT_URL")
 bot_app_name = os.getenv("TEAMS_BOT_APP_NAME")
 #sheet_link = "https://app.smartsheet.com/sheets/HFR56Jxm2jHgQwCWw2vX4rCx3x49VMjFMV36mfR1"
-TOKEN = "hrol393n3zawzkdlezm2nj6l89"
-SHEET_NAME = "devnetsurvey"
+TOKEN = "xxxxxxxxxxxxx"
+SHEET_NAME = "survey"
 smartsheet = Smartsheet(TOKEN)
 sheet = smartsheet.sheets.get(SHEET_NAME)
 
