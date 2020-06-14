@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=cJUlyPt3zq4
      ![](Images/botcommand.png)
      
      - Enter command /survey to get the survey buttons and cards to complete the survey
-     
-     ![](Images/venv.png)
+            
+     ![](Images/buttonsandcards.png)
     
 
