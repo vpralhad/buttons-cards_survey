@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=cJUlyPt3zq4
      
      ![](Images/devnetsurveybot.png)
      
-     - In 1:1 with bot, type /help to find out what commands are supported (for now only one command is supported - /survey)
+     - In 1:1 space with bot, type /help to find out what commands are supported
      
      ![](Images/botcommand.png)
      
