@@ -16,15 +16,39 @@ https://www.youtube.com/watch?v=cJUlyPt3zq4
 4. Create python virtual environment using 3.8
     - python3.8 -m venv venv
     
-    ![](Images/python venv.png)
+    ![](Images/venv.png)
     
     - source venv/bin/activate
-    - pip install requirements.txt
+    
+    ![](Images/activatevenv.png)
+    
     - Enter following commands in terminal to set the env variables:
         -   export TEAMS_BOT_URL=https://xxxxxx (replace it with url generated when your run ngrok http 7000 in terminal in
             a separate tab)
         -   export TEAMS_BOT_TOKEN=xxxxx (replace it with your bot access token that you copied in step 1)
         -   export TEAMS_BOT_EMAIL=replace it with your email id
         -   export TEAMS_BOT_APP_NAME=DevNetSurvey
+        
+        ![](Images/envvariables.png)
+        
+     - open new terminal and enter ngrok http 7000
+     
+     ![](Images/ngrok.png)
+     
+     - run survey.py using python survey.py
+     
+     ![](Images/pythonsurvey.png)
+     
+     - log in to Webex Teams app and search for the bot named DevNetSurvey@webex.bot
+     
+     ![](Images/devnetsurvey.png)
+     
+     - In 1:1 with bot, type /help to find out what commands are supported (for now only one command is supported - /survey)
+     
+     ![](Images/botcommand.png)
+     
+     - Enter command /survey to get the survey buttons and cards to complete the survey
+     
+     ![](Images/surveybc.png)
     
 
