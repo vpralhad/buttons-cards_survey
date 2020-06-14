@@ -15,6 +15,9 @@ https://www.youtube.com/watch?v=cJUlyPt3zq4
 3.  Generate Smartsheet API using following link. https://www.youtube.com/watch?v=R4pow3y-BTk. Copy the token and assign it to variable called as TOKEN. 
 4. Create python virtual environment using 3.8
     - python3.8 -m venv venv
+    
+    ![](Images/python venv.png)
+    
     - source venv/bin/activate
     - pip install requirements.txt
     - Enter following commands in terminal to set the env variables:
@@ -24,4 +27,4 @@ https://www.youtube.com/watch?v=cJUlyPt3zq4
         -   export TEAMS_BOT_EMAIL=replace it with your email id
         -   export TEAMS_BOT_APP_NAME=DevNetSurvey
     
-![](Images/token.png)
+
