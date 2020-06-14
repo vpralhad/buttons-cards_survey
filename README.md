@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=cJUlyPt3zq4
         -   export TEAMS_BOT_EMAIL=replace it with your email id
         -   export TEAMS_BOT_APP_NAME=DevNetSurvey
         
-        ![](Images/envvariables.png)
+     ![](Images/envvariables.png)
         
      - open new terminal and enter ngrok http 7000
      
@@ -37,11 +37,11 @@ https://www.youtube.com/watch?v=cJUlyPt3zq4
      
      - run survey.py using python survey.py
      
-     ![](Images/pythonsurvey.png)
+     ![](Images/surveypython.png)
      
      - log in to Webex Teams app and search for the bot named DevNetSurvey@webex.bot
      
-     ![](Images/devnetsurvey.png)
+     ![](Images/devnetsurveybot.png)
      
      - In 1:1 with bot, type /help to find out what commands are supported (for now only one command is supported - /survey)
      
