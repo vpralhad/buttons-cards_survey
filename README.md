@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/vpralhad/buttons-cards_survey)
+
 # Survey using Buttons and Cards + Smartsheet API
 
 Webex Teams bot is created for completing survey. They survey will be completed using Buttons and Cards (Guide - https://developer.webex.com/docs/api/guides/cards) as part of the bot.The result of the survey is posted in smartsheet after submitting though buttons and cards.
