@@ -29,12 +29,6 @@ SHEET_NAME = "DevNetSurvey"
 smartsheet = Smartsheet(TOKEN)
 sheet = smartsheet.sheets.get(SHEET_NAME)
 
-# Example: How to limit the approved Webex Teams accounts for interaction
-#          Also uncomment the parameter in the instantiation of the new bot
-# List of email accounts of approved users to talk with the bot
-# approved_users = [
-#     "josmith@demo.local",
-# ]
 
 # If any of the bot environment variables are missing, terminate the app
 if not bot_email or not teams_token or not bot_url or not bot_app_name:
@@ -103,7 +97,6 @@ def show_card(incoming_msg):
     print(c)
     return ""
 
-
 # An example of how to process card actions
 def handle_cards(api, incoming_msg):
     """
@@ -113,14 +106,7 @@ def handle_cards(api, incoming_msg):
     :return: A text or markdown based reply
     """
     m = get_attachment_actions(incoming_msg["data"]["id"])
-    #with open('devnetsurvey.csv', 'a') as file:
-        #data = json.dumps(m["inputs"])
     data = m["inputs"]
-        #file.write(data)
-        #print(type(data))
-        #writer = csv.writer(file)
-        #for value in m:
-        #writer.writerow(m["inputs"])
     new_rows = [
         Row(
             to_top=True,
