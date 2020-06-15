@@ -1,6 +1,6 @@
 # Survey using Buttons and Cards + Smartsheet API
 
-Webex Teams bot is created for completing survey. They survey will be completed using Buttons and Cards as part of the bot.The result of the survey is posted in smartsheet after submitting though buttons and cards.
+Webex Teams bot is created for completing survey. They survey will be completed using Buttons and Cards (Guide - https://developer.webex.com/docs/api/guides/cards) as part of the bot.The result of the survey is posted in smartsheet after submitting though buttons and cards.
 
 Pre-requisites:
 1.  Python (using 3.8 for this project)
