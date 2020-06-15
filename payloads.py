@@ -1,7 +1,7 @@
 survey_payload = {
-  "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vYTVjMGM1MjAtNzk4Ny0xMWU4LTgwMzctN2I3NDhmZmFiYTZm",
-  "attachments": [
-    {
+  #"roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vYTVjMGM1MjAtNzk4Ny0xMWU4LTgwMzctN2I3NDhmZmFiYTZm",
+ # "attachments": [
+    #{
       "contentType": "application/vnd.microsoft.card.adaptive",
       "content": {
         "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
@@ -13,18 +13,6 @@ survey_payload = {
             "columns": [
               {
                 "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "Image",
-                    "altText": "",
-                    "url": "https://dcl3wxcscqm28.cloudfront.net/3226687379924868/images/nQ-9w2bm3VPoFhEgr7ArGS/BELL.PNG",
-                    "style": "Person"
-                  }
-                ]
-              },
-              {
-                "type": "Column",
                 "width": "stretch",
                 "items": [
                   {
@@ -32,16 +20,17 @@ survey_payload = {
                     "text": "DveNet Express (DNA)",
                     "color": "Accent",
                     "size": "Medium",
-                    "weight": "Bolder"
+                    "weight": "Bolder",
+                    "fontType": "Monospace"
                   },
                   {
                     "type": "TextBlock",
-                    "text": "Survey",
+                    "text": "Post Event Survey",
                     "color": "Accent"
                   },
                   {
                     "type": "TextBlock",
-                    "text": "DevNet Express for DNA in Toronto - what did you think?",
+                    "text": "Virtual DevNet Express for DNA - What did you think?",
                     "wrap": True
                   }
                 ]
@@ -57,7 +46,7 @@ survey_payload = {
             "type": "Input.Text",
             "placeholder": "",
             "maxLength": 30,
-            "id": "your_name"
+            "id": "Name"
           },
           {
             "type": "TextBlock",
@@ -289,7 +278,7 @@ survey_payload = {
                 "type": "Action.Submit",
                 "title": "Submit",
                 "data": {
-                        "x": 13
+
                     }
               }
             ]
@@ -297,6 +286,3 @@ survey_payload = {
         ]
       }
     }
-  ],
-  "text": "test"
-}
