@@ -15,7 +15,7 @@ STEPS -
 1.  Create a bot using following instructions. https://developer.webex.com/docs/bots#creating-a-webex-teams-bot. Once the bot is created, note down or copy the Bot's Access Token which will be needed to run the bot locally. For this project, sample bot has been created named DevNetSurvey
 2. Create sheet named DevNetSurvey in smartsheet using this quick tutorial. https://www.youtube.com/watch?v=cJUlyPt3zq4
 3. Copy the columns from the DevNetSurvey.xml which is part of this repo (make sure you copy columns as is)
-4. Generate Smartsheet API using following link. https://www.youtube.com/watch?v=R4pow3y-BTk. Copy the token and assign it to variable called as TOKEN in setup.py. 
+4. Generate Smartsheet Access Token using following link. https://www.youtube.com/watch?v=R4pow3y-BTk. Copy the token and assign it to variable called as TOKEN in setup.py. This is needed so that your bot can post the survey results to the sheet
 5. Running survey.py
     - python3.8 -m venv venv
     
