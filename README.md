@@ -34,9 +34,17 @@ STEPS -
         
      ![](Images/envvariables.png)
         
+     - Install ngrok using command brew cask install ngrok (checkout the details if you wish to donwload it and install it on different platforms - https://ngrok.com/download)
+     
+     ![](Images/installngrok.png)
+     
      - open new terminal and enter ngrok http 7000
      
      ![](Images/ngrok.png)
+     
+     - go back to first trerminal window and run pip install -r requirements.txt to install the required libraries.
+     
+     ![](Images/requirements.png)
      
      - run survey.py using python survey.py
      
