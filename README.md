@@ -67,4 +67,4 @@ STEPS -
      
      ![](Images/smartsheet.png)
     
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/7pMzjB2O_kI/0.jpg)](https://www.youtube.com/watch?v=7pMzjB2O_kI)
