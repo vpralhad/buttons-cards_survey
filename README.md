@@ -2,7 +2,7 @@
 
 # Surveys for Webex Teams
 
-Webex Teams bot is created for completing survey. They survey will be completed using Buttons and Cards (Guide - https://developer.webex.com/docs/api/guides/cards) as part of the bot.The result of the survey is posted in smartsheet after submitting though buttons and cards.
+Webex Teams bot is created for completing survey. They survey will be completed using Buttons and Cards (Guide - https://developer.webex.com/docs/api/guides/cards) as part of the bot.The result of the survey is posted in smartsheet after submitting through buttons and cards.
 
 Pre-requisites:
 1.  MacOS/Linux (using macOS Catalina 10.15.5 version for this project)
